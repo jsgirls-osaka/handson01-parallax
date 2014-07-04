@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+html,body{
+    padding:0;
+}
+h1{
+    background-color:#efda5b;
+    border-bottom: 10px solid #f4e58c;
+    text-align:center;
+    font-size: 4em;
+    color: #000;
+    margin:0;
+    padding:1em 0;
+}
+footer{
+    text-align:center;
+    background-color:#000;
+    padding:1em 0;
+}
+footer small{
+    color:#fff;
+}
+main{
+    height: 3500px;
+    margin: 0;
+    padding: 0;
+    background:#2fa9ff url(../img/bg.jpg) repeat-x left bottom;
+    position:relative;
+    overflow:hidden;
+}
+
+#cloud_1 {
+    width: 1344px;
+    height: 806px;
+    background: url(../img/cloud_1.png) no-repeat left top;
+    /*top:100%;*/
+}
+
+#cloud_2 {
+    width: 729px;
+    height: 277px;
+    background: url(../img/cloud_2.png) no-repeat left top;
+    /*top:80%;*/
+}
+
+#cloud_3 {
+    width: 1400px;
+    height: 869px;
+    background: url(../img/cloud_3.png) no-repeat left top;
+    /*top:80%;*/
+}
+
+#building {
+    width:320px;
+    height: 270px;
+    background: url(../img/building.png) no-repeat left top;
+    /*top:300%;*/
+}
+
+#tree_left,
+#tree_right {
+    width:823px;
+    height: 789px;
+    background: url(../img/tree.png) no-repeat left top;
+    /*top:300%;*/
+}
